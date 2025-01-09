@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.first_section{
+    display: flex;
+}
+.first_section img{
+    height: 50vh;
+    margin: 10px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.second_section{
+    display: flex;
+    justify-content: space-between;
+}
+.second_first_section{
+    width:650px;
+    height: 30vh;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+}
+.second_first_section img{
+    height: 30vh;
+}
+.second_second_section{
+    align-items: center;
+    padding: 10px;
+}

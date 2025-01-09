@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height:7vh ;
+    width: 100vw;
+}
+.header img{
+    height: 7vh;
+}
+.first{
+    display: flex;
+    list-style-type: none;
+}
+.first a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+.second{
+    display: flex;
+}
+.second a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 16px;
+}
