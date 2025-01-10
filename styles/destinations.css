@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+.cards{
+    display: flex;
+}
+.paris{
+    width: 272px;
+    background-color: black;
+    height: 400px;
+    margin: 5px;
+}
+.paris img{
+    height: 50vh;
+}
+.paris p{
+    font-size: 20px;
+    display: flex;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.ooty{
+    height: 400px;
+    width: 244px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+}
+.ooty img{
+    height: 50vh;
+}
+.ooty p{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
