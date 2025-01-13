@@ -11,7 +11,7 @@
     <navs style="height: 9vh; background-color: rgb(255, 255, 255);" class="navbar navbar-expand-sm absolute justify-content-between align-items-cente">
         <div class="container-fluid">
             <a class="nav-link" href="./index.html">
-                <img style="height: 9vh; position: absolute; top: 0; left: 0;" src="../images/logo.png" alt="logo">
+                <img style="height: 9vh; position: absolute; top: 0; left: 0;" src="./images/logo.png" alt="logo">
             </a>
             <button style="position: relative; top: 0.5; right: 0.5rem; align-items: center;" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -24,22 +24,22 @@
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 column-gap-4">
                         <li class="nav-item">
-                            <a class="nav-link" href="../pages/index.html">Home</a>
+                            <a class="nav-link" href="./index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../pages/packages.html">Packages</a>
+                            <a class="nav-link" href="./packages.html">Packages</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../pages/destinations.html">Destinations</a>
+                            <a class="nav-link" href="./destinations.html">Destinations</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../pages/gallery.html">Gallery</a>
+                            <a class="nav-link" href="./gallery.html">Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../pages/about.html">AboutUs</a>
+                            <a class="nav-link" href="./about.html">AboutUs</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../pages/contact.html">Contact</a>
+                            <a class="nav-link" href="./contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -48,46 +48,47 @@
     </navs>
     <div class="container-fluid p-5">
         <div class="row">
-            <div class="col">
-                <h1 style="font-size: 80px;">Gallery</h1>
-            </div>
+            <h1>Destinations</h1>
         </div>
-    </div>
-    <div>
-    <div class="container-fluid">
         <div class="row">
-            <h1 style="text-align: center;">Moments We Captured</h1>
-            <p style="text-align: center;">Urna risus vel donec ac scelerisque integer. Arcu fermentum semper dictum sit eget nibh. Nec turpis quis ornare et a sed malesuada. Eget non tincidunt lorem mattis suscipit malesuada. Sollicitudin nullam id varius arcu at nec.</p>
+            <p>Search country or city to explore</p>
         </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row p-2 d-flex flex-wrap justify-content-around row-gap-4">
-            <div class="col-sm-4">
-                <img style="border-radius: 10px;" class="img-fluid" src="../images/cultural_tours.avif" alt="#">
+        <div style="background-color: rgb(125, 184, 184);" class="row card d-flex flex-row p-4 m-2 row-gap-2">
+            <div class="col-sm-10">
+                <input type="text" placeholder="Search city,place,state or country" class="form-control">
             </div>
-            <div class="col-sm-4">
-                <img style="border-radius: 10px;" class="img-fluid" src="../images/gallery_bg.avif" alt="#">
+            <div class="col-sm-2 d-flex justify-content-center">
+                <button style="width: 250px;" class="btn btn-outline-dark">Search</button>
             </div>
-            <div class="col-sm-4">
-                <img style="border-radius: 10px;" class="img-fluid" src="../images/card.avif" alt="#">
+        </div>
+        <div class="row p-2">
+            <div class="col-sm-3 d-flex flex-column justify-content-center">
+                <img style="border-radius: 20px;" src="./images/bali.avif" class="img-fluid" alt="bali">
+                <div class="d-flex justify-content-around align-items-center">
+                    <h3>Bali</h3>
+                    <button class="btn btn-outline-warning">Explore</button>
+                </div>
             </div>
-            <div class="col-sm-4">
-                <img style="border-radius: 10px;" class="img-fluid" src="../images/gallery1.avif" alt="#">
+            <div class="col-sm-3 d-flex flex-column justify-content-center">
+                <img style="border-radius: 20px;" src="./images/ooty.avif" class="img-fluid" alt="ooty">
+                <div class="d-flex justify-content-around align-items-center">
+                    <h3>Ooty</h3>
+                    <button class="btn btn-outline-warning">Explore</button>
+                </div>
             </div>
-            <div class="col-sm-4">
-                <img style="border-radius: 10px;" class="img-fluid" src="../images/gallery2.avif" alt="#">
+            <div class="col-sm-3 d-flex flex-column justify-content-center">
+                <img style="border-radius: 20px;" src="./images/bangkok.avif" class="img-fluid" alt="bangkok">
+                <div class="d-flex justify-content-around align-items-center">
+                    <h3>Bangkok</h3>
+                    <button class="btn btn-outline-warning">Explore</button>
+                </div>
             </div>
-            <div class="col-sm-4">
-                <img style="border-radius: 10px;" class="img-fluid" src="../images/gallery3.avif" alt="#">
-            </div>
-            <div class="col-sm-4">
-                <img style="border-radius: 10px;" class="img-fluid" src="../images/gallery4.avif" alt="card">
-            </div>
-            <div class="col-sm-4">
-                <img style="border-radius: 10px;" class="img-fluid" src="../images/gallery5.avif" alt="card">
-            </div>
-            <div class="col-sm-4">
-                <img style="border-radius: 10px;" class="img-fluid" src="../images/gallery6.avif" alt="card">
+            <div class="col-sm-3 d-flex flex-column justify-content-center">
+                <img style="border-radius: 20px;" src="./images/barcelona.avif" class="img-fluid" alt="barcelona">
+                <div class="d-flex justify-content-around align-items-center">
+                    <h3>Barcelona</h3>
+                    <button class="btn btn-outline-warning">Explore</button>
+                </div>
             </div>
         </div>
     </div>

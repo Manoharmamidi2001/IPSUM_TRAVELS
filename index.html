@@ -7,11 +7,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>Document</title>
 </head>
-<body>
+<body style="overflow-x: hidden;">
     <navs style="height: 9vh; background-color: rgb(255, 255, 255);" class="navbar navbar-expand-sm absolute justify-content-between align-items-cente">
         <div class="container-fluid">
             <a class="nav-link" href="./index.html">
-                <img style="height: 9vh; position: absolute; top: 0; left: 0;" src="../images/logo.png" alt="logo">
+                <img style="height: 9vh; position: absolute; top: 0; left: 0;" src="./images/logo.png" alt="logo">
             </a>
             <button style="position: relative; top: 0.5; right: 0.5rem; align-items: center;" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -24,114 +24,122 @@
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 column-gap-4">
                         <li class="nav-item">
-                            <a class="nav-link" href="../pages/index.html">Home</a>
+                            <a class="nav-link" href="./index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../pages/packages.html">Packages</a>
+                            <a class="nav-link" href="./packages.html">Packages</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../pages/destinations.html">Destinations</a>
+                            <a class="nav-link" href="./destinations.html">Destinations</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../pages/gallery.html">Gallery</a>
+                            <a class="nav-link" href="./gallery.html">Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../pages/about.html">AboutUs</a>
+                            <a class="nav-link" href="./about.html">AboutUs</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../pages/contact.html">Contact</a>
+                            <a class="nav-link" href="./contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
     </navs>
+    <div style="background-image: url('./images/one.jpg'); background-position: center;background-size: cover; background-repeat: no-repeat;" class="container-fluid p-4">
+        <div class="card m-5 p-3">
+            <div class="row d-flex justify-content-between column-gap-4">
+                <div class="col-md-2">
+                    <label class="form-label">From Place</label>
+                    <input type="text" class="form-control" placeholder="From">
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label">To Place</label>
+                    <input type="text" class="form-control" placeholder="To">
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label">Departure</label>
+                    <input type="date" class="form-control" placeholder="From">
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label">Return</label>
+                    <input type="date" class="form-control" placeholder="From">
+                </div>
+                <div class="col-md-2 d-flex justify-content-center align-items-center">
+                    <button style="width:300px; height: 60px; font-size: 25px;" class="btn btn-primary">Search</button>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-between align-items-center">
+            <div class="col-sm-5 m-1">
+                <h1 style="font-size: 80px;">Asia Awaits Your Adventure</h1>
+                <p style="font-size: 30px;">From vibrant cities to tranquil escapes—start your journey with us today</p>
+                <a href="./packages.html"><button class="btn btn-outline-dark">View Packages</button></a>
+            </div>
+            <div style="width: 420px;" class="card col-sm-5 d-flex justify-content-center align-items-center p-1">
+                <img style="height: 40vh; width: 440px;" src="./images/card.avif" class="img-fluid" alt="">
+                <a href="./gallery.html"><button style="width:280px; height: 50px; font-size: 20px;" class="btn btn-outline-primary m-1">Explore Gallery</button></a>
+            </div>
+        </div>
+    </div>
     <div class="container-fluid">
+        <div class="row p-5">
+            <div class="col-sm-6">
+                <h1>Explore Travel Categories</h1>
+            </div>
+            <div class="col-sm-6">
+                <p>Discover a variety of travel experiences tailored to your interests, from serene beaches to thrilling adventures. Start planning your dream journey today!</p>
+            </div>
+        </div>
+        <div class="row p-5">
+            <div class="col-sm-3 d-flex flex-column justify-content-center align-items-center">
+                <img style="border-radius: 20px;" class="img-fluid" src="./images/cultural.jpg" alt="cultural">
+                <p style="font-size: 30px;">Cultural Tours</p>
+            </div>
+            <div class="col-sm-3 d-flex flex-column justify-content-center align-items-center">
+                <img style="border-radius: 20px;" class="img-fluid" src="./images/adventures.jpg" alt="adventures">
+                <p style="font-size: 30px;">Adventure Trips</p>
+            </div>
+            <div class="col-sm-3 d-flex flex-column justify-content-center align-items-center">
+                <img style="border-radius: 20px;"  class="img-fluid" src="./images/beachEscapes.jpg" alt="beachEscapes">
+                <p style="font-size: 30px;">Beach Escapes</p>
+            </div>
+            <div class="col-sm-3 d-flex flex-column justify-content-center align-items-center">
+                <img style="border-radius: 20px;"  class="img-fluid" src="./images/citybreaks.jpg" alt="citybreaks">
+                <p style="font-size: 30px;">City Breaks</p>
+            </div>
+        </div>
         <div class="row">
-            <h1 style="text-align: center;">Package Details</h1>
+            <div class="col d-flex justify-content-center align-items-center">
+                <a href="./packages.html"><button style="width: 200px; font-size: 20px;" class="btn btn-outline-dark">See all</button></a>
+            </div>
         </div>
-        <div class="row p-2">
-            <h2>Cultural Tours</h2>
+    </div>
+    <div class="container-fluid">
+        <div class="row p-5">
+            <div class="col-sm-6">
+                <h1>Explore Destinations</h1>
+            </div>
+            <div class="col-sm-6 d-flex justify-content-end">
+                <a href="./destinations.html"><button class="btn btn-outline-primary">Discover Destinations</button></a>
+            </div>
         </div>
         <div class="row p-3">
-            <div class="col-sm-6">
-                <img style="border-radius: 20px;" class="img-fluid" src="../images/cultural_tours.avif" alt="cultural_tours">
+            <div class="col-md-3 d-flex flex-column justify-content-center">
+                <img style="border-radius: 10px;" class="img-fluid" src="./images/london.avif" alt="london">
+                <p style="font-size: 30px;">Landon</p>
             </div>
-            <div class="col-sm-6">
-                <h3>Package Heighlights</h3>
-                <hr>
-                <h5>Accommodation</h5>
-                <p>Stay in a luxurious private villa, complete with a private pool and lush tropical views. Experience Balinese hospitality at its finest.</p>
-                <hr>
-                <h5>Daily Spa Treatments</h5>
-                <p>Indulge in rejuvenating traditional Balinese massages and spa treatments every day of your stay.</p>
-                <hr>
-                <h5>Guided Tours</h5>
-                <p>Explore iconic destinations like the Ubud Monkey Forest, Tanah Lot Temple, and Tegallalang Rice Terraces.</p>
-                <button class="btn btn-outline-primary">Book Tour</button>
+            <div class="col-md-3 d-flex flex-column justify-content-center">
+                <img style="border-radius: 10px;" class="img-fluid" src="./images/bangkok.avif" alt="bangkok">
+                <p style="font-size: 30px;">Bangkok</p>
             </div>
-        </div>
-        <div class="row p-2">
-            <h2>Adventure Tours</h2>
-        </div>
-        <div class="row p-3">
-            <div class="col-sm-6">
-                <img style="border-radius: 20px;" class="img-fluid" src="../images/adventures_tours.jpg" alt="cultural_tours">
+            <div class="col-md-3 d-flex flex-column justify-content-center">
+                <img style="border-radius: 10px;" class="img-fluid" src="./images/barcelona.avif" alt="barcelona">
+                <p style="font-size: 30px;">Barcelona</p>
             </div>
-            <div class="col-sm-6">
-                <h3>Package Heighlights</h3>
-                <hr>
-                <h5>Accommodation</h5>
-                <p>Stay in a luxurious private villa, complete with a private pool and lush tropical views. Experience Balinese hospitality at its finest.</p>
-                <hr>
-                <h5>Daily Spa Treatments</h5>
-                <p>Indulge in rejuvenating traditional Balinese massages and spa treatments every day of your stay.</p>
-                <hr>
-                <h5>Guided Tours</h5>
-                <p>Explore iconic destinations like the Ubud Monkey Forest, Tanah Lot Temple, and Tegallalang Rice Terraces.</p>
-                <button class="btn btn-outline-primary">Book Tour</button>
-            </div>
-        </div>
-        <div class="row p-2">
-            <h2>Beach Escapes</h2>
-        </div>
-        <div class="row p-3">
-            <div class="col-sm-6">
-                <img style="border-radius: 20px;" class="img-fluid" src="../images/beachEscapes_tours.jpg" alt="cultural_tours">
-            </div>
-            <div class="col-sm-6">
-                <h3>Package Heighlights</h3>
-                <hr>
-                <h5>Accommodation</h5>
-                <p>Stay in a luxurious private villa, complete with a private pool and lush tropical views. Experience Balinese hospitality at its finest.</p>
-                <hr>
-                <h5>Daily Spa Treatments</h5>
-                <p>Indulge in rejuvenating traditional Balinese massages and spa treatments every day of your stay.</p>
-                <hr>
-                <h5>Guided Tours</h5>
-                <p>Explore iconic destinations like the Ubud Monkey Forest, Tanah Lot Temple, and Tegallalang Rice Terraces.</p>
-                <button class="btn btn-outline-primary">Book Tour</button>
-            </div>
-        </div>
-        <div class="row p-2">
-            <h2>City Breaks</h2>
-        </div>
-        <div class="row p-3">
-            <div class="col-sm-6">
-                <img style="border-radius: 20px;" class="img-fluid" src="../images/citybreaks_tours.jpg" alt="cultural_tours">
-            </div>
-            <div class="col-sm-6">
-                <h3>Package Heighlights</h3>
-                <hr>
-                <h5>Accommodation</h5>
-                <p>Stay in a luxurious private villa, complete with a private pool and lush tropical views. Experience Balinese hospitality at its finest.</p>
-                <hr>
-                <h5>Daily Spa Treatments</h5>
-                <p>Indulge in rejuvenating traditional Balinese massages and spa treatments every day of your stay.</p>
-                <hr>
-                <h5>Guided Tours</h5>
-                <p>Explore iconic destinations like the Ubud Monkey Forest, Tanah Lot Temple, and Tegallalang Rice Terraces.</p>
-                <button class="btn btn-outline-primary">Book Tour</button>
+            <div class="col-md-3 d-flex flex-column justify-content-center">
+                <img style="border-radius: 10px;" class="img-fluid" src="./images/bali.avif" alt="bali">
+                <p style="font-size: 30px;">Bali</p>
             </div>
         </div>
     </div>
